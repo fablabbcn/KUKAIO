@@ -12,7 +12,7 @@ Industrial IO Modules come in different filed buses depending on the KRC setup. 
 
 #### KR C3 and below
 
-Configuration is defined on the **iosys.ini** file at `KRC/ROBOTER/INIT/iosys.ini`. Documentation is provided at the end of the same file. See an example [iosys.ini](https://gist.github.com/pral2a/f3b4760431761dd8f8b5#file-iosys-ini). 
+Configuration is defined on the **iosys.ini** file at `KRC/ROBOTER/INIT/iosys.ini`. Documentation is provided at the end of the same file. See an example [iosys.ini](https://github.com/pral2a/KUKAIO/blob/master/iosys.ini). 
 
 #### KR C4 and after
 
@@ -26,6 +26,6 @@ Simple bidirectional communication between KUKA industrial IO modules and Arduin
 
 <img src="https://cdn.rawgit.com/pral2a/f3b4760431761dd8f8b5/raw/475fd338bac6361e841c92580f9526984fc2a7fa/kuka_arduino_basic.png" alt="KUKA WorkVisual" style="width: 100%"/>
 
-Download the [Fritzing](https://gist.github.com/pral2a/f3b4760431761dd8f8b5/raw/6b1cf758c33dafa549834e759dcbf2e8402814fa/kuka_arduino_basic.fzz)
+Download the [Fritzing](https://github.com/pral2a/KUKAIO/blob/master/kuka_arduino_basic.fzz)
 
-
+Download also the Arduino example [firmware](https://github.com/pral2a/KUKAIO/tree/master/kuka_io_firmware) 
