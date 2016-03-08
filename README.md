@@ -29,3 +29,19 @@ Simple bidirectional communication between KUKA industrial IO modules and Arduin
 Download the [Fritzing](https://github.com/pral2a/KUKAIO/blob/master/kuka_arduino_basic.fzz)
 
 Download also the Arduino example [firmware](https://github.com/pral2a/KUKAIO/tree/master/kuka_io_firmware) 
+
+### KRC Buses
+
+This is a short introduction to the KRC buses for internal and external communication with the robot.
+
+*This information must be always checked against the robot KRC original documentation* 
+
+#### Kuka buses
+* **KCB** Kuka Controller Bus (used for robot motion)
+* **KSB** Kuka System Bus (used for connecting smartPad and robots together for purpose of roboteam)
+
+#### User buses
+* **KEB** *port X65* Kuka Expansion Bus (adding EtherCat I/O, or through EtherCat adding legacy busses like DeviceNet and ProfiBus)
+* **KLI**  *port X66* Kuka Line Interface (used for connecting to everything else: PLCs, safety PLC, Work Visual machine, ProfiNet, EthernetIP, Kuka Ethernet XML)
+* **KONI** Kuka Options Network Interface (currently used for robot guidance using CV)
+* **KSI** *port X69* Kuka Service Interface (Robot servicing by KUKA)
