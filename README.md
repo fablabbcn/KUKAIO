@@ -14,6 +14,22 @@ Industrial IO Modules come in different filed buses depending on the KRC setup. 
 
 Configuration is defined on the **iosys.ini** file at `KRC/ROBOTER/INIT/iosys.ini`. Documentation is provided at the end of the same file. See an example [iosys.ini](https://github.com/pral2a/KUKAIO/blob/master/iosys.ini). 
 
+##### Inputs and Outputs syntax
+
+###### Input
+
+* INB means "input byte" (8-bit)
+* INW means "input word" (16-bit)
+* IND means "input double-word" (32-bit)
+
+###### Output
+
+* OUTB means "output byte" (8-bit)
+* OUTW means "output word" (16-bit)
+* OUTD means "output double-word" (32-bit)
+
+*For example: `INB0` is "input byte 0" (inputs 1..8) and `INB1` is "input byte 1" (inputs 9..16)*
+
 #### KR C4 and after
 
 Configuration can be done using the **[WorkVisual](http://www.kuka-robotics.com/en/products/software/engineering_environment/start.htm)** software from KUKA, accessing the robot KRC via LAN. By knowing the Robot KRC LAN IP we can download the configuration on our local WorkVisual software. KRC bus structure is provided as a tree structure on the GUI. The IO Mapping tool is used to assign bus modules addresses to the KRC IOs.
