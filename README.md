@@ -48,7 +48,7 @@ Download also the Arduino example [firmware](https://github.com/pral2a/KUKAIO/tr
 
 #### Arduino Shield
 
-We recommend the Electan Relay Control shield in order to simplify the work on optocoupler circuit below. This provides 8 digital 0-24V outputs and 4 digital optoucoupled 0-24V inputs.
+We recommend the Electan Relay Control shield in order to simplify the work on the optocoupler circuit below. This provides 8 digital 0-24V outputs and 4 digital optoucoupled 0-24V inputs.
 
 http://www.electan.com/relay-control-shield-optoisolator-p-3266-en.html
 
