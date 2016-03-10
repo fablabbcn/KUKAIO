@@ -46,6 +46,12 @@ Download the [Fritzing](https://github.com/pral2a/KUKAIO/blob/master/kuka_arduin
 
 Download also the Arduino example [firmware](https://github.com/pral2a/KUKAIO/tree/master/kuka_io_firmware) 
 
+#### Arduino Shield
+
+We recommend the Electan Relay Control shield in order to simplify the work on optocoupler circuit below. This provides 8 digital 0-24V outputs and 4 digital optoucoupled 0-24V inputs.
+
+http://www.electan.com/relay-control-shield-optoisolator-p-3266-en.html
+
 ### KRC Buses
 
 This is a short introduction to the KRC buses for internal and external communication with the robot.
